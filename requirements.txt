@@ -1,0 +1,4 @@
+openai>=1.0        # GLM / GPT 经 OpenAI 兼容 SDK 调用（glm_backend / gpt_backend）
+python-dotenv       # 从 .env 读取 API key
+# pandas           # results.csv 读写与指标统计（evaluate 目前用标准库 csv，暂不需要）
+PyMuPDF>=1.24

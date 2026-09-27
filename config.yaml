@@ -1,0 +1,15 @@
+# 实验配置。API key 一律放在 .env（参考 .env.example），禁止写入本文件。
+
+model:
+  name: glm-5.3-flash   # 结果记录中展示的模型名
+  backend: glm          # 适配器选择: glm | gpt | claude（对应 src/models/ 下同名模块）
+
+agent:
+  skill_enabled: false  # false = baseline 实验；true = 加载 Skill 判读流程
+  skill_version: v1
+  skill_path: skills/echo-hydatid/v1/SKILL.md
+
+paths:
+  images_dir: data/images
+  labels_csv: data/labels.csv
+  experiments_dir: experiments

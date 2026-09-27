@@ -1,0 +1,23 @@
+# 密钥
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 实验产物
+experiments/
+
+# 原始医学数据 / 最终图片
+data/raw/
+data/images/*
+!data/images/.gitkeep
+
+# 临时文件
+tmp/
+test.jpg
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
